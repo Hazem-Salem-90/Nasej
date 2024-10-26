@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" new platform" parallel="false" preserve-order="false">
+    <parameter name="browser" value="chrome" />
+    <test name="Create new platform">
+        <classes>
+
+                        <class name="Tests_User.Login_Test"  />
+                        <class name="Tests_User.addPlatform_Test" />
+
+                        <class name="Tests_User.savePlatform_Test" />
+                        <class name="Tests_User.savePlatformSecondPhase_Test" />
+                        <class name="Tests_User.savePlatformServiceList_Test" />
+
+
+                        <class name="Internal_Test_User.Internal_Login_Test"  />
+
+
+
+
+                        <class name="Internal_Test_User.Licenses_Accept_Test"  />
+                        <class name="Internal_Test_User.Licenses_Accept_Test"  />
+
+
+                        <class name="Internal_Test_User.ProductsSolutions_Accept_Test"  />
+
+                    </classes>
+                </test>
+
+            </suite>

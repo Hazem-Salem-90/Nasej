@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ new platform]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Create new platform(failed)">
+    <classes>
+      <class name="Internal_Test_User.Internal_Login_Test">
+        <methods>
+          <include name="stop_driver"/>
+          <include name="screenshootonfailure"/>
+          <include name="startdriver"/>
+          <include name="UserCanLogin"/>
+        </methods>
+      </class> <!-- Internal_Test_User.Internal_Login_Test -->
+      <class name="Tests_User.savePlatformServiceList_Test">
+        <methods>
+          <include name="stop_driver"/>
+          <include name="screenshootonfailure"/>
+          <include name="startdriver"/>
+          <include name="platformThirdPhase_fn"/>
+        </methods>
+      </class> <!-- Tests_User.savePlatformServiceList_Test -->
+      <class name="Tests_User.savePlatformSecondPhase_Test">
+        <methods>
+          <include name="stop_driver"/>
+          <include name="screenshootonfailure"/>
+          <include name="startdriver"/>
+          <include name="platformSecondPhase_fn"/>
+        </methods>
+      </class> <!-- Tests_User.savePlatformSecondPhase_Test -->
+      <class name="Internal_Test_User.Licenses_Accept_Test">
+        <methods>
+          <include name="stop_driver"/>
+          <include name="screenshootonfailure"/>
+          <include name="startdriver"/>
+          <include name="Licenses_Acceptance"/>
+        </methods>
+      </class> <!-- Internal_Test_User.Licenses_Accept_Test -->
+      <class name="Internal_Test_User.ProductsSolutions_Accept_Test">
+        <methods>
+          <include name="stop_driver"/>
+          <include name="screenshootonfailure"/>
+          <include name="startdriver"/>
+          <include name="Licenses_Acceptance"/>
+        </methods>
+      </class> <!-- Internal_Test_User.ProductsSolutions_Accept_Test -->
+      <class name="Tests_User.addPlatform_Test">
+        <methods>
+          <include name="stop_driver"/>
+          <include name="screenshootonfailure"/>
+          <include name="startdriver"/>
+          <include name="UserCanRegisterPlatform"/>
+        </methods>
+      </class> <!-- Tests_User.addPlatform_Test -->
+      <class name="Tests_User.savePlatform_Test">
+        <methods>
+          <include name="stop_driver"/>
+          <include name="UserCansavePlatform"/>
+          <include name="screenshootonfailure"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- Tests_User.savePlatform_Test -->
+      <class name="Tests_User.Login_Test">
+        <methods>
+          <include name="stop_driver"/>
+          <include name="screenshootonfailure"/>
+          <include name="startdriver"/>
+          <include name="UserCanLogin"/>
+        </methods>
+      </class> <!-- Tests_User.Login_Test -->
+    </classes>
+  </test> <!-- Create new platform(failed) -->
+</suite> <!-- Failed suite [ new platform] -->

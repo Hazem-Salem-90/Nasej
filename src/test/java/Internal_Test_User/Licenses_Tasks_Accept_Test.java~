@@ -1,0 +1,28 @@
+package Internal_Test_User;
+import Page_User.Login_Page;
+import Page_User.addPlatform_page;
+import data.JsonDataReader;
+import io.qameta.allure.Description;
+import org.json.simple.parser.ParseException;
+import org.testng.annotations.Test;
+
+import java.io.IOException;
+
+public class Licenses_Tasks_Accept_Test extends testbase {
+
+
+    Licenses_Tasks_Accept_page Licensesobj_obj;
+    JsonDataReader jsonReader;
+
+    @Description("Accept from Licenses team ")
+
+
+
+    @Test
+    public void LicensesAcceptPlatform() throws IOException, ParseException {
+        Licensesobj_obj=new Licenses_Tasks_Accept_page(driver);
+        jsonReader = new JsonDataReader();
+        jsonReader.jsonreader();
+        Licensesobj_obj.Licenses_Accept();
+    }
+}

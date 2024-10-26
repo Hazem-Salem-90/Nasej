@@ -1,0 +1,28 @@
+[
+  {
+    "userName": "lebuser3",
+    "password": "Aa123456",
+
+    "InternalUserName": "t_asuliman",
+    "InternalPassword": "Vdman@135792468",
+
+    "platformNew": "منصة جديدة بنطاق رئيسى",
+    "platformClassification" : "منصة حكومية",
+    "workingTime": "دائم",
+    "platformDescription": "وصف للمنصة",
+
+    "workingRange": "it is my platfrom inside saudia arabia",
+    "goal": "الجهات الحكومية وبعض الجهات الخاصة",
+    "justification": "we need to create it",
+    "analysis": "our analysis say it good step",
+    "startegic": "نتطلع في خلال سنة الي تحقيق نجاح شامل",
+
+
+    "serviceName": "الخدمة الأولى",
+    "serviceDescription": " وصف الخدمة الأولى",
+    "serviceFees": "20",
+    "serviceFees1": "0",
+    "serviceName1": "الخدمة الثانية",
+    "serviceName2": "الخدمة الثالثة"
+  }
+]
